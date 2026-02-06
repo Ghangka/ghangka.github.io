@@ -2,9 +2,9 @@ import "./App.css";
 import { Routes, Route, HashRouter } from "react-router-dom";
 import Home from "./components/Home";
 import Navbar from "./components/Navbar";
-import Travel from "./components/Travel";
+// import Travel from "./components/Travel";
 import About from "./components/About";
-import Projects from "./components/Projects";
+// import Projects from "./components/Projects";
 
 function App() {
   return (
@@ -15,8 +15,8 @@ function App() {
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/about" element={<About />} />
-            <Route path="/travel" element={<Travel />} />
-            <Route path="/project" element={<Projects />} />
+            {/* <Route path="/travel" element={<Travel />} />
+            <Route path="/project" element={<Projects />} /> */}
           </Routes>
         </HashRouter>
       </div>
